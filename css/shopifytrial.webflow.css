@@ -392,6 +392,7 @@ blockquote {
 }
 
 .button.black {
+  width: 75%;
   background-color: var(--shopify-green);
   color: var(--white);
 }
@@ -912,6 +913,11 @@ blockquote {
   justify-content: center;
   align-items: center;
   display: flex;
+}
+
+.step-number-wrap._1vw-margin {
+  background-color: var(--shopify-green);
+  color: var(--white-smoke);
 }
 
 .step-number {
@@ -4168,6 +4174,10 @@ blockquote {
     border-radius: 33px;
   }
 
+  .button.black.hide-on-phone {
+    width: 100%;
+  }
+
   .button-arrow {
     width: 12.5px;
   }
@@ -5970,11 +5980,7 @@ blockquote {
     font-size: 36px;
   }
 
-  .paragraph {
-    font-size: 12px;
-  }
-
-  .large-paragraph {
+  .paragraph, .large-paragraph {
     font-size: 14px;
   }
 
@@ -5983,11 +5989,19 @@ blockquote {
   }
 
   .buttons-container {
+    width: 75%;
     grid-column-gap: 10px;
     grid-row-gap: 10px;
+    grid-template-columns: auto;
+    display: flex;
   }
 
-  .phone-image {
+  .button.black {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .button.black.header, .phone-image {
     width: 100%;
   }
 
@@ -6085,6 +6099,11 @@ blockquote {
     width: 100%;
     grid-row-gap: 0px;
     grid-template-columns: 1fr;
+  }
+
+  .step-number-wrap._1vw-margin {
+    background-color: var(--shopify-green);
+    color: var(--white);
   }
 
   .navigation, .toggle {
@@ -6321,6 +6340,7 @@ blockquote {
 
   .scrolling-wrap {
     min-height: 60vh;
+    display: none;
   }
 
   ._1st-card-left {
@@ -6358,7 +6378,7 @@ blockquote {
   }
 
   .medium-paragraph {
-    font-size: 13px;
+    font-size: 14px;
   }
 
   .how-it-works-section {
@@ -6375,8 +6395,17 @@ blockquote {
     font-size: 30px;
   }
 
+  .align-left-and-vertical {
+    margin-bottom: 19px;
+  }
+
   .steps-grid {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .badge {
+    justify-content: center;
+    display: flex;
   }
 
   .email-capture-grid {
@@ -6466,6 +6495,7 @@ blockquote {
   .footer-top {
     flex-direction: column;
     align-items: flex-start;
+    margin-bottom: 0;
   }
 
   .footer-wrapper-grid {
@@ -6473,7 +6503,7 @@ blockquote {
     grid-row-gap: 14px;
     grid-template-columns: auto;
     justify-items: start;
-    margin-bottom: 45px;
+    margin-bottom: 10px;
   }
 
   .footer-grid {
@@ -6483,6 +6513,7 @@ blockquote {
 
   .footer-wrapper {
     flex-wrap: wrap;
+    grid-template-columns: 1fr;
     justify-content: flex-start;
   }
 
@@ -6667,12 +6698,23 @@ blockquote {
   }
 
   .footer-logo {
+    height: 6vw;
     margin-bottom: 10px;
   }
 
   .shopify-trial-logo-block {
     bottom: 88%;
     left: 75%;
+  }
+
+  .link-block-2 {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .link-block-3 {
+    width: 75%;
   }
 }
 
@@ -7554,6 +7596,10 @@ blockquote {
 
   #w-node-_461b29ae-27d4-9e7d-df20-05714e43d4e3-93811425 {
     grid-area: 2 / span 12 / 3 / span 12;
+  }
+
+  #w-node-_9b2d96e0-f058-3fc4-eedf-e29d6f3c8eb9-93811426 {
+    grid-area: span 1 / span 1 / span 1 / span 1;
   }
 
   #w-node-_6593b220-72e9-87ec-9ad3-8148bb83aec4-93811426 {
