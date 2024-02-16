@@ -398,7 +398,12 @@ blockquote {
 }
 
 .button.black.hide-on-phone {
+  width: 100%;
   background-color: var(--shopify-green);
+}
+
+.button.black.header {
+  width: 100%;
 }
 
 .button-arrow {
