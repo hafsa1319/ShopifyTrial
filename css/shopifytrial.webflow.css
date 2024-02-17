@@ -163,6 +163,7 @@ blockquote {
 
 .section.grenn {
   background-image: linear-gradient(#fff, #95bf47);
+  overflow: hidden;
 }
 
 .page-link {
@@ -2128,7 +2129,7 @@ blockquote {
   height: 100%;
   min-height: 100vh;
   position: relative;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .features-column {
