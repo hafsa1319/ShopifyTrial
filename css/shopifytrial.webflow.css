@@ -163,7 +163,7 @@ blockquote {
 
 .section.grenn {
   background-image: linear-gradient(#fff, #95bf47);
-  overflow: hidden;
+  overflow: visible;
 }
 
 .page-link {
